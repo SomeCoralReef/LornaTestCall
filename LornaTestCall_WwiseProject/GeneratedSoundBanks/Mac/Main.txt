@@ -1,0 +1,8 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1372256004	TestCall_B_Toning			\Default Work Unit\TestCall_B_Toning	
+	2458966978	TestCall_B_Silent			\Default Work Unit\TestCall_B_Silent	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	111280112	tutorialMusic_fundamental_[B]_silent	Y:\Documents\GitHub\LornaTestCall\LornaTestCall_WwiseProject\.cache\Mac\SFX\tutorialMusic_fundamental_[B]_silent_66B93D96.wem		\Actor-Mixer Hierarchy\Default Work Unit\Fundamental_B_Stems\tutorialMusic_fundamental_[B]_silent		8448096
+	563375161	tutorialMusic_fundamental_[B]_toning	Y:\Documents\GitHub\LornaTestCall\LornaTestCall_WwiseProject\.cache\Mac\SFX\tutorialMusic_fundamental_[B]_toning_FBC78EF0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Fundamental_B_Stems\tutorialMusic_fundamental_[B]_toning		10563460
+

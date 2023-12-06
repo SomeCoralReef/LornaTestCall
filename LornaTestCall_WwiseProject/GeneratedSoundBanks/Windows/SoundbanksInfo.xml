@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<RootPaths>
+		<ProjectRoot>../..</ProjectRoot>
+		<SourceFilesRoot>../../.cache/Windows</SourceFilesRoot>
+		<SoundBanksRoot>.</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>.</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{B6CBD692-12EC-CDBA-0932-48F63C40C91F}">
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<Plugins>
+				<AudioDevices>
+					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
+				</AudioDevices>
+			</Plugins>
+			<Busses>
+				<Bus Id="3803692087" Name="Master Audio Bus"/>
+			</Busses>
+		</SoundBank>
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{405123E6-7D4A-1797-DF70-5A7E7B2F0ACF}">
+			<ShortName>Main</ShortName>
+			<Path>Main.bnk</Path>
+			<Media>
+				<File Id="111280112" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>tutorialMusic_fundamental_[B]_silent.wav</ShortName>
+					<CachePath>SFX/tutorialMusic_fundamental_[B]_silent_66B93D96.wem</CachePath>
+				</File>
+				<File Id="563375161" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>tutorialMusic_fundamental_[B]_toning.wav</ShortName>
+					<CachePath>SFX/tutorialMusic_fundamental_[B]_toning_FBC78EF0.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2458966978" Name="TestCall_B_Silent">
+					<MediaRefs>
+						<MediaRef Id="111280112"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1372256004" Name="TestCall_B_Toning">
+					<MediaRefs>
+						<MediaRef Id="563375161"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{FC4F4ABE-0DC7-E5FA-E4B4-50A75D9DE3E0}</FileHash>
+</SoundBanksInfo>

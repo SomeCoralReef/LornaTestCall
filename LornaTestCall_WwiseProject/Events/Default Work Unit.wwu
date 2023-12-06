@@ -1,6 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{5C856053-DA64-4609-8E3E-34828F780FFD}" SchemaVersion="119">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{5C856053-DA64-4609-8E3E-34828F780FFD}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{5C856053-DA64-4609-8E3E-34828F780FFD}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="TestCall_B_Toning" ID="{4361254A-40C4-4C6D-817D-8BBA366FF138}">
+					<ChildrenList>
+						<Action Name="" ID="{CF03E433-B4B6-428B-A1E4-B58E3E413145}" ShortID="723180001">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="tutorialMusic_fundamental_[B]_toning" ID="{EA8B987C-D9DD-4CE1-B436-B441327A3471}" WorkUnitID="{0F98220D-372D-4356-AA7C-3EE01DDC4404}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="TestCall_B_Silent" ID="{E407DD81-191B-4855-B8B8-07D903406BD1}">
+					<ChildrenList>
+						<Action Name="" ID="{98E269F2-EBE9-4143-94C3-10C8ADEB70FD}" ShortID="278694340">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="tutorialMusic_fundamental_[B]_silent" ID="{6C0374F2-2AF6-4C73-A0BD-1B9E3BC32EC6}" WorkUnitID="{0F98220D-372D-4356-AA7C-3EE01DDC4404}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>

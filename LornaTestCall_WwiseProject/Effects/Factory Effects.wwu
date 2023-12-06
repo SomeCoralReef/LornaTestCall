@@ -142,6 +142,7 @@
 								<Property Name="WetDryMix" Type="Real32" Value="30"/>
 							</PropertyList>
 						</Effect>
+						<Effect Name="New_Delay" ID="{7EB9F503-2429-40CE-9459-8CDB4426DD48}" PluginName="Wwise Delay" CompanyID="0" PluginID="106" PluginType="3"/>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Peak Limiter" ID="{836AD450-C7A2-4D04-B731-35228C434FD4}" ShortID="766653803">
