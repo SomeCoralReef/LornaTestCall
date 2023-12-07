@@ -46,12 +46,12 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="2458966978" Name="TestCall_B_Silent">
+				<Event Id="2458966978" Name="TestCall_B_Silent" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="111280112"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1372256004" Name="TestCall_B_Toning">
+				<Event Id="1372256004" Name="TestCall_B_Toning" DurationType="OneShot" DurationMin="55.01752" DurationMax="55.01752">
 					<MediaRefs>
 						<MediaRef Id="98915971"/>
 					</MediaRefs>
@@ -59,5 +59,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{CF095236-E261-0282-4B0C-0642314C00F3}</FileHash>
+	<FileHash>{962A082C-5A35-84BB-2CF0-C9A4E942C127}</FileHash>
 </SoundBanksInfo>
