@@ -21,18 +21,28 @@
 			<Busses>
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 			</Busses>
+			<SwitchGroups>
+				<SwitchGroup Id="1809499653" Name="Kasina_Switch_Group">
+					<Switches>
+						<Switch Id="1325584443" Name="Kasina_Switch_Reference"/>
+						<Switch Id="2011816845" Name="Kasina_Switch_Green"/>
+						<Switch Id="2238338697" Name="Kasina_Switch_Red"/>
+						<Switch Id="3255360992" Name="Kasina_Switch_Blue"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{405123E6-7D4A-1797-DF70-5A7E7B2F0ACF}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{B832F87C-57DA-FBA6-9978-704E2F2744B5}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
+				<File Id="98915971" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>tutorialMusic_fundamental_[B]_toning.wav</ShortName>
+					<CachePath>SFX/tutorialMusic_fundamental_[B]_toning_818F3B66.wem</CachePath>
+				</File>
 				<File Id="111280112" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>tutorialMusic_fundamental_[B]_silent.wav</ShortName>
-					<CachePath>SFX/tutorialMusic_fundamental_[B]_silent_66B93D96.wem</CachePath>
-				</File>
-				<File Id="563375161" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>tutorialMusic_fundamental_[B]_toning.wav</ShortName>
-					<CachePath>SFX/tutorialMusic_fundamental_[B]_toning_FBC78EF0.wem</CachePath>
+					<CachePath>SFX/tutorialMusic_fundamental_[B]_silent_11A93380.wem</CachePath>
 				</File>
 			</Media>
 			<Events>
@@ -43,11 +53,11 @@
 				</Event>
 				<Event Id="1372256004" Name="TestCall_B_Toning">
 					<MediaRefs>
-						<MediaRef Id="563375161"/>
+						<MediaRef Id="98915971"/>
 					</MediaRefs>
 				</Event>
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{305AD338-EB5C-14C4-EB86-5583D4BCB6EA}</FileHash>
+	<FileHash>{4A5A2A33-702E-751C-47B4-74E8A5F79452}</FileHash>
 </SoundBanksInfo>

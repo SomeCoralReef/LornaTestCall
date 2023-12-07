@@ -17,6 +17,23 @@ namespace AK
         static const AkUniqueID TESTCALL_B_TONING = 1372256004U;
     } // namespace EVENTS
 
+    namespace SWITCHES
+    {
+        namespace KASINA_SWITCH_GROUP
+        {
+            static const AkUniqueID GROUP = 1809499653U;
+
+            namespace SWITCH
+            {
+                static const AkUniqueID KASINA_SWITCH_BLUE = 3255360992U;
+                static const AkUniqueID KASINA_SWITCH_GREEN = 2011816845U;
+                static const AkUniqueID KASINA_SWITCH_RED = 2238338697U;
+                static const AkUniqueID KASINA_SWITCH_REFERENCE = 1325584443U;
+            } // namespace SWITCH
+        } // namespace KASINA_SWITCH_GROUP
+
+    } // namespace SWITCHES
+
     namespace BANKS
     {
         static const AkUniqueID INIT = 1355168291U;
