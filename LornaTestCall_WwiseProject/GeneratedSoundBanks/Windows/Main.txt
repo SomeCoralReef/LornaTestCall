@@ -6,5 +6,5 @@ Event	ID	Name			Wwise Object Path	Notes
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	98915971	tutorialMusic_fundamental_[B]_toning	Y:\Documents\GitHub\LornaTestCall\LornaTestCall_WwiseProject\.cache\Windows\SFX\tutorialMusic_fundamental_[B]_toning_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Fundamental_B_Stems\tutorialMusic_fundamental_[B]_toning		10563460
-	111280112	tutorialMusic_fundamental_[B]_silent	Y:\Documents\GitHub\LornaTestCall\LornaTestCall_WwiseProject\.cache\Windows\SFX\tutorialMusic_fundamental_[B]_silent_11A93380.wem		\Actor-Mixer Hierarchy\Default Work Unit\Fundamental_B_Stems\tutorialMusic_fundamental_[B]_silent		8448096
+	111280112	tutorialMusic_fundamental_[B]_silent	Y:\Documents\GitHub\LornaTestCall\LornaTestCall_WwiseProject\.cache\Windows\SFX\tutorialMusic_fundamental_[B]_silent_377E0D7E.wem		\Actor-Mixer Hierarchy\Default Work Unit\Fundamental_B_Stems\tutorialMusic_fundamental_[B]_silent		8448144
 

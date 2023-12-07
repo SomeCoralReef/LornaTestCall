@@ -32,7 +32,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{B832F87C-57DA-FBA6-9978-704E2F2744B5}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{0386210F-C72F-D737-6309-7968412163C4}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -42,7 +42,7 @@
 				</File>
 				<File Id="111280112" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>tutorialMusic_fundamental_[B]_silent.wav</ShortName>
-					<CachePath>SFX/tutorialMusic_fundamental_[B]_silent_11A93380.wem</CachePath>
+					<CachePath>SFX/tutorialMusic_fundamental_[B]_silent_377E0D7E.wem</CachePath>
 				</File>
 			</Media>
 			<Events>
