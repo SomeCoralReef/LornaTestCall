@@ -6,6 +6,7 @@
 				<Property Name="AudioFilesImporter\Path" Type="string" Value="Y:\Dropbox\SOUNDSELF\_FINAL DELIVERY\_MUSIC\MUSIC SYSTEMS\Gentle Meditation\WAV\"/>
 				<Property Name="AutoSoundBankEnabled" Type="bool" Value="True"/>
 				<Property Name="Event Action List\{4361254A-40C4-4C6D-817D-8BBA366FF138}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{5B01C891-CD9A-4A77-B716-F619D080B1C3}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{A1E5B2C5-DF78-4C72-9F99-F052F64596E5}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{E407DD81-191B-4855-B8B8-07D903406BD1}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="EventView\FilterMode1" Type="int32" Value="2"/>
@@ -18,6 +19,7 @@
 				<Property Name="GenerateSoundBanks\x64_SelectedPlatforms" Type="string" Value="MSXlXd9/PEGBRZUZJar8JQ=="/>
 				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value="wdLoaIAeakGo3Yiyu9f3bQ=="/>
 				<Property Name="HardwareController\CurrentSession" Type="string" Value="{00000000-0000-0000-0000-000000000000}"/>
+				<Property Name="Interactive Music\x64_{06294FC3-A5F5-4F4E-8361-B8199538C753} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwPwAAAAAAAGpAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
 				<Property Name="Interactive Music\x64_{2D41004E-F023-404C-A5EE-97BE30745DF0} - SegmentEditorZoomInfo" Type="string" Value="mpmZmZmZuT9dj8L1KFzzPwAAAAAAGG9AAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
 				<Property Name="Interactive Music\x64_{D73FBF91-BE2F-4A83-A149-F40C3654DBE0} - SegmentEditorZoomInfo" Type="string" Value="xdgZMO+Gsz8AAAAAAADwPwAAAAAAGG9AAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
 				<Property Name="MeterView\LastObject1" Type="string" Value="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>

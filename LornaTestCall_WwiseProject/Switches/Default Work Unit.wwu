@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{C0D455B4-F065-476C-B3BF-E81E75E7B0DD}" SchemaVersion="119">
 	<Switches>
-		<WorkUnit Name="Default Work Unit" ID="{C0D455B4-F065-476C-B3BF-E81E75E7B0DD}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{C0D455B4-F065-476C-B3BF-E81E75E7B0DD}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="Kasina_Switch_Group" ID="{379846FC-C595-4E61-BF24-1665D96DA0F5}">
+					<ChildrenList>
+						<Switch Name="Kasina_Switch_Reference" ID="{DCA9DB46-6878-4029-A9F8-8B1039C05CDA}"/>
+						<Switch Name="Kasina_Switch_Red" ID="{8E693BE8-6181-4CD9-B157-F0FEDF013DA3}"/>
+						<Switch Name="Kasina_Switch_Green" ID="{ED8A8D92-3714-445E-8008-A7FA221B0D19}"/>
+						<Switch Name="Kasina_Switch_Blue" ID="{6A3FF240-905B-4C0B-B053-53754C5193AD}"/>
+					</ChildrenList>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
 	</Switches>
 </WwiseDocument>

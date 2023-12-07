@@ -365,6 +365,342 @@
 						</MusicPlaylistContainer>
 					</ChildrenList>
 				</MusicSwitchContainer>
+				<Folder Name="Mindplace_LED" ID="{7BFF9109-43F3-436F-893E-BFE45A61480C}" ShortID="988407388">
+					<ChildrenList>
+						<MusicSegment Name="mindplace_blue" ID="{06294FC3-A5F5-4F4E-8361-B8199538C753}" ShortID="1052775752">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C88C75F0-4719-42AC-B8F7-95915B532029}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EC7D7503-B73E-4579-AB83-2C9947BAEA62}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="mindplace_blue" ID="{E3F92B2F-7186-4C82-9115-3D0846CE3FB3}" ShortID="325576657">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EC7D7503-B73E-4579-AB83-2C9947BAEA62}"/>
+										</Reference>
+										<Reference Name="TransitionRoot">
+											<Custom>
+												<MusicTransition Name="Root" ID="{8A54E498-3B6C-454C-824E-D92AEC70D31B}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="mindplace_blue" ID="{62C3EC80-0DAF-429E-A7C3-5CF1140CBDE6}">
+											<Language>SFX</Language>
+											<AudioFile>mindplace_blue.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="98515821"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{900BE471-FFB4-4FF3-B1DE-0401EA1BE276}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="mindplace_blue" ID="{1E86296B-CF95-43EE-A759-949306DC32D4}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="1000"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="mindplace_blue" ID="{62C3EC80-0DAF-429E-A7C3-5CF1140CBDE6}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Cues">
+									<Reference>
+										<Local>
+											<MusicCue Name="Entry Cue" ID="{A7C5604A-9C6C-4710-AF17-5A4C81E4AB95}"/>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MusicCue Name="Exit Cue" ID="{1D02FD67-2603-4F03-8ACB-04347C2886B0}">
+												<PropertyList>
+													<Property Name="CueType" Type="int16" Value="1"/>
+													<Property Name="TimeMs" Type="Real64" Value="1000"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicSegment>
+						<MusicSegment Name="mindplace_green" ID="{5015DC87-5993-4767-8251-A3492041C0AF}" ShortID="87996811">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C88C75F0-4719-42AC-B8F7-95915B532029}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EC7D7503-B73E-4579-AB83-2C9947BAEA62}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="mindplace_green" ID="{7F4A7003-2E0D-4EFA-9761-312751B83305}" ShortID="279393475">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EC7D7503-B73E-4579-AB83-2C9947BAEA62}"/>
+										</Reference>
+										<Reference Name="TransitionRoot">
+											<Custom>
+												<MusicTransition Name="Root" ID="{17910624-9E90-4519-885F-F6FE0321695F}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="mindplace_green" ID="{0AA1FA89-8A7A-47BC-A8B2-2DA4B025FFA2}">
+											<Language>SFX</Language>
+											<AudioFile>mindplace_green.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="149882908"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{36380045-87F2-4329-9DAB-BC5C0F6F48FA}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="mindplace_green" ID="{315EDCAD-A3FF-455B-B860-1C65FC7F78A4}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="1000"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="mindplace_green" ID="{0AA1FA89-8A7A-47BC-A8B2-2DA4B025FFA2}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Cues">
+									<Reference>
+										<Local>
+											<MusicCue Name="Entry Cue" ID="{1B81961B-AC6B-4E17-AFD3-55E8E8701838}"/>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MusicCue Name="Exit Cue" ID="{5D7E08FA-45BE-4656-B8EE-B91E698070E5}">
+												<PropertyList>
+													<Property Name="CueType" Type="int16" Value="1"/>
+													<Property Name="TimeMs" Type="Real64" Value="1000"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicSegment>
+						<MusicSegment Name="mindplace_red" ID="{3778F7E9-EB13-4887-833B-F46A1CE5F978}" ShortID="103771141">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C88C75F0-4719-42AC-B8F7-95915B532029}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EC7D7503-B73E-4579-AB83-2C9947BAEA62}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="mindplace_red" ID="{4D293423-3CB9-4051-A39C-54B26E80113A}" ShortID="101105747">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EC7D7503-B73E-4579-AB83-2C9947BAEA62}"/>
+										</Reference>
+										<Reference Name="TransitionRoot">
+											<Custom>
+												<MusicTransition Name="Root" ID="{3D54D854-879A-49EC-A80D-10D75B617DC8}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="mindplace_red" ID="{E0303E66-0E77-4380-B046-76C81FE878B1}">
+											<Language>SFX</Language>
+											<AudioFile>mindplace_red.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="243320960"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{869C09C3-4B34-4F4C-AA2C-A8D2107EAD6E}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="mindplace_red" ID="{D8A5767A-4274-45D9-93DC-21BC274253F7}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="1000"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="mindplace_red" ID="{E0303E66-0E77-4380-B046-76C81FE878B1}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Cues">
+									<Reference>
+										<Local>
+											<MusicCue Name="Entry Cue" ID="{1CE86B97-E96B-42CD-AF68-7508DA0DD0DA}"/>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MusicCue Name="Exit Cue" ID="{FBD3B30C-6410-4BFF-8AC5-5F03F6798F18}">
+												<PropertyList>
+													<Property Name="CueType" Type="int16" Value="1"/>
+													<Property Name="TimeMs" Type="Real64" Value="1000"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicSegment>
+						<MusicSegment Name="mindplace_reference" ID="{FBE733C1-E794-494A-8001-CCAF3BF4AA95}" ShortID="416763958">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C88C75F0-4719-42AC-B8F7-95915B532029}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EC7D7503-B73E-4579-AB83-2C9947BAEA62}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="mindplace_reference" ID="{1193428B-22D6-4DE4-8C48-33081E7F132D}" ShortID="124727">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EC7D7503-B73E-4579-AB83-2C9947BAEA62}"/>
+										</Reference>
+										<Reference Name="TransitionRoot">
+											<Custom>
+												<MusicTransition Name="Root" ID="{1957EF08-1FC6-4F07-B1B7-5F7F3598F42A}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="mindplace_reference" ID="{7258359A-E217-41F9-AAF1-975DD49B6C1E}">
+											<Language>SFX</Language>
+											<AudioFile>mindplace_reference.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="787642295"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{5BD6D2BD-27CC-44CB-A0F6-EC2BEA00035A}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="mindplace_reference" ID="{D3DCFFA1-13DE-43C9-8ECE-A69547413779}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="1000"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="mindplace_reference" ID="{7258359A-E217-41F9-AAF1-975DD49B6C1E}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Cues">
+									<Reference>
+										<Local>
+											<MusicCue Name="Entry Cue" ID="{F2539742-81C1-4BA5-80AE-D01B836C9EF2}"/>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MusicCue Name="Exit Cue" ID="{470B4443-3D78-4889-A4C1-15952D956E88}">
+												<PropertyList>
+													<Property Name="CueType" Type="int16" Value="1"/>
+													<Property Name="TimeMs" Type="Real64" Value="1000"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicSegment>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</InteractiveMusic>
