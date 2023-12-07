@@ -3,10 +3,12 @@
 	<SoundBanks>
 		<WorkUnit Name="Default Work Unit" ID="{3290D070-C3C9-46AB-B6E9-5B463B8C60A8}" PersistMode="Standalone">
 			<ChildrenList>
-				<SoundBank Name="Main" ID="{68E8D2C1-1E80-416A-A8DD-88B2BBD7F76D}">
+				<SoundBank Name="Main" ID="{98CE1F33-3D41-4081-815E-8DC0B7F82961}">
 					<ObjectInclusionList>
-						<ObjectRef Name="TestCall_B_Silent" ID="{E407DD81-191B-4855-B8B8-07D903406BD1}" WorkUnitID="{5C856053-DA64-4609-8E3E-34828F780FFD}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="TestCall_B_Toning" ID="{4361254A-40C4-4C6D-817D-8BBA366FF138}" WorkUnitID="{5C856053-DA64-4609-8E3E-34828F780FFD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_TestCall_B_Toning" ID="{7758925B-FEA4-46EB-9558-5C42275E369E}" WorkUnitID="{5C856053-DA64-4609-8E3E-34828F780FFD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_TestCall_B_Silent" ID="{6B502A14-32A8-47D4-91E6-963936B7B020}" WorkUnitID="{5C856053-DA64-4609-8E3E-34828F780FFD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_TestCall_B_Toning" ID="{99CA926E-312C-4BF3-94CA-38C8D386B3A3}" WorkUnitID="{5C856053-DA64-4609-8E3E-34828F780FFD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_TestCall_B_Silent" ID="{CA049C1D-1E1D-4DBC-983A-CDAE13682DE5}" WorkUnitID="{5C856053-DA64-4609-8E3E-34828F780FFD}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

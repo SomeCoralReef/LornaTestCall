@@ -3,23 +3,51 @@
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{5C856053-DA64-4609-8E3E-34828F780FFD}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="TestCall_B_Toning" ID="{4361254A-40C4-4C6D-817D-8BBA366FF138}">
+				<Event Name="Play_TestCall_B_Silent" ID="{6B502A14-32A8-47D4-91E6-963936B7B020}">
 					<ChildrenList>
-						<Action Name="" ID="{CF03E433-B4B6-428B-A1E4-B58E3E413145}" ShortID="723180001">
+						<Action Name="" ID="{55EB7FEB-F48A-47DF-B4CE-ACA52F0242FA}" ShortID="1012569291">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="tutorialMusic_fundamental_[B]_toning" ID="{EA8B987C-D9DD-4CE1-B436-B441327A3471}" WorkUnitID="{0F98220D-372D-4356-AA7C-3EE01DDC4404}"/>
+									<ObjectRef Name="TestCall_B_Silent" ID="{E6376C47-6D9C-4FD1-827D-338E2FBEB02D}" WorkUnitID="{0F98220D-372D-4356-AA7C-3EE01DDC4404}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="TestCall_B_Silent" ID="{E407DD81-191B-4855-B8B8-07D903406BD1}">
+				<Event Name="Play_TestCall_B_Toning" ID="{7758925B-FEA4-46EB-9558-5C42275E369E}">
 					<ChildrenList>
-						<Action Name="" ID="{98E269F2-EBE9-4143-94C3-10C8ADEB70FD}" ShortID="278694340">
+						<Action Name="" ID="{C2405E90-96ED-4F61-AE60-5286A41EAE9F}" ShortID="10749878">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="tutorialMusic_fundamental_[B]_silent" ID="{6C0374F2-2AF6-4C73-A0BD-1B9E3BC32EC6}" WorkUnitID="{0F98220D-372D-4356-AA7C-3EE01DDC4404}"/>
+									<ObjectRef Name="TestCall_B_Toning" ID="{D0FB33C8-4C56-457A-AFAF-35499F0506BB}" WorkUnitID="{0F98220D-372D-4356-AA7C-3EE01DDC4404}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_TestCall_B_Silent" ID="{CA049C1D-1E1D-4DBC-983A-CDAE13682DE5}">
+					<ChildrenList>
+						<Action Name="" ID="{29F38320-C59A-4218-9EC8-BAD0D8574AB0}" ShortID="758657902">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="TestCall_B_Silent" ID="{E6376C47-6D9C-4FD1-827D-338E2FBEB02D}" WorkUnitID="{0F98220D-372D-4356-AA7C-3EE01DDC4404}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_TestCall_B_Toning" ID="{99CA926E-312C-4BF3-94CA-38C8D386B3A3}">
+					<ChildrenList>
+						<Action Name="" ID="{D97805C3-9EDC-4BA9-A11B-B9DBA8937CCE}" ShortID="730880093">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="TestCall_B_Toning" ID="{D0FB33C8-4C56-457A-AFAF-35499F0506BB}" WorkUnitID="{0F98220D-372D-4356-AA7C-3EE01DDC4404}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

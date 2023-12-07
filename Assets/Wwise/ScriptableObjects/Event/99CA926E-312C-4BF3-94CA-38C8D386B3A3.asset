@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 493043621f24a42e6af1845a4d4dca4f, type: 3}
+  m_Name: 99CA926E-312C-4BF3-94CA-38C8D386B3A3
+  m_EditorClassIdentifier: 
+  objectName: Stop_TestCall_B_Toning
+  id: 3134006855
+  guid: 99CA926E-312C-4BF3-94CA-38C8D386B3A3

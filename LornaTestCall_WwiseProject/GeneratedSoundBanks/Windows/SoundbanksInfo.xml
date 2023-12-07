@@ -48,7 +48,7 @@
 			<Events>
 				<Event Id="2458966978" Name="TestCall_B_Silent" DurationType="Infinite">
 					<MediaRefs>
-						<MediaRef Id="111280112"/>
+						<MediaRef Id="110664871"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="1372256004" Name="TestCall_B_Toning" DurationType="OneShot" DurationMin="55.01752" DurationMax="55.01752">
@@ -56,6 +56,8 @@
 						<MediaRef Id="98915971"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="2455189497" Name="Stop_TestCall_B_Silent" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="3134006855" Name="Stop_TestCall_B_Toning" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 		</SoundBank>
 	</SoundBanks>
