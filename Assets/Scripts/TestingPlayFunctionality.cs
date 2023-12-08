@@ -6,6 +6,7 @@ public class TestingPlayFunctionality : MonoBehaviour
 {
     public AK.Wwise.Event TestCall_B_Toning;
     public AK.Wwise.Event TestCall_B_Silent;
+    public AK.Wwise.Event Play_vo_jaya_repair1Ahhh;
     private bool TestCall_B_SilentPlaying = false;
 
     // Update is called once per frame
@@ -26,6 +27,14 @@ public class TestingPlayFunctionality : MonoBehaviour
                 TestCall_B_Silent.Post(gameObject);
                 TestCall_B_SilentPlaying = true;
             }
+        }
+        if(Input.GetKeyDown(KeyCode.Alpha3)){
+            Debug.Log("Playing Play_vo_jaya_repair1Ahhh");
+            Play_vo_jaya_repair1Ahhh.Post(gameObject);
+        }
+        if(Input.GetKeyDown(KeyCode.Alpha0)){
+            Debug.Log("Stopping All");
+            AkSoundEngine.StopAll();
         }
     }
 }

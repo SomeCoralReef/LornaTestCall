@@ -50,17 +50,17 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="3951725281" Name="Play_vo_jaya_repair1Ahhh">
+				<Event Id="3951725281" Name="Play_vo_jaya_repair1Ahhh" DurationType="OneShot" DurationMin="13.613044" DurationMax="13.613044">
 					<MediaRefs>
 						<MediaRef Id="417786063"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2458966978" Name="TestCall_B_Silent">
+				<Event Id="2458966978" Name="TestCall_B_Silent" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="111280112"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1372256004" Name="TestCall_B_Toning">
+				<Event Id="1372256004" Name="TestCall_B_Toning" DurationType="OneShot" DurationMin="55.01752" DurationMax="55.01752">
 					<MediaRefs>
 						<MediaRef Id="98915971"/>
 					</MediaRefs>
@@ -68,5 +68,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{06BE9B8A-E817-080F-6CE1-A4B795B37074}</FileHash>
+	<FileHash>{0B21DDA3-F448-81C1-2A3A-AC6908C4DEF3}</FileHash>
 </SoundBanksInfo>
