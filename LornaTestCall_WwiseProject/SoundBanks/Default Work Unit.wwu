@@ -7,6 +7,7 @@
 					<ObjectInclusionList>
 						<ObjectRef Name="TestCall_B_Silent" ID="{E407DD81-191B-4855-B8B8-07D903406BD1}" WorkUnitID="{5C856053-DA64-4609-8E3E-34828F780FFD}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="TestCall_B_Toning" ID="{4361254A-40C4-4C6D-817D-8BBA366FF138}" WorkUnitID="{5C856053-DA64-4609-8E3E-34828F780FFD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_vo_jaya_repair1Ahhh" ID="{585F1623-F203-4E1D-8991-624C9976DDC6}" WorkUnitID="{5C856053-DA64-4609-8E3E-34828F780FFD}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

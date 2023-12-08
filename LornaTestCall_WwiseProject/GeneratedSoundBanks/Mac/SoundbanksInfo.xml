@@ -32,7 +32,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{B832F87C-57DA-FBA6-9978-704E2F2744B5}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{03101BE2-A4C2-5809-AA7E-9CA75C7F7D18}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -44,14 +44,23 @@
 					<ShortName>tutorialMusic_fundamental_[B]_silent.wav</ShortName>
 					<CachePath>SFX/tutorialMusic_fundamental_[B]_silent_11A93380.wem</CachePath>
 				</File>
+				<File Id="417786063" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>vo_jaya_repair1Ahhh.wav</ShortName>
+					<CachePath>SFX/vo_jaya_repair1Ahhh_DFA8D4D4.wem</CachePath>
+				</File>
 			</Media>
 			<Events>
-				<Event Id="2458966978" Name="TestCall_B_Silent" DurationType="Infinite">
+				<Event Id="3951725281" Name="Play_vo_jaya_repair1Ahhh">
+					<MediaRefs>
+						<MediaRef Id="417786063"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2458966978" Name="TestCall_B_Silent">
 					<MediaRefs>
 						<MediaRef Id="111280112"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1372256004" Name="TestCall_B_Toning" DurationType="OneShot" DurationMin="55.01752" DurationMax="55.01752">
+				<Event Id="1372256004" Name="TestCall_B_Toning">
 					<MediaRefs>
 						<MediaRef Id="98915971"/>
 					</MediaRefs>
@@ -59,5 +68,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{6813F79A-112D-62CD-B885-44D366B68CA9}</FileHash>
+	<FileHash>{1CED1E90-D45D-7247-A89C-7896BD121520}</FileHash>
 </SoundBanksInfo>

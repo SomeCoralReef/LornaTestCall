@@ -13,6 +13,7 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID PLAY_VO_JAYA_REPAIR1AHHH = 3951725281U;
         static const AkUniqueID TESTCALL_B_SILENT = 2458966978U;
         static const AkUniqueID TESTCALL_B_TONING = 1372256004U;
     } // namespace EVENTS

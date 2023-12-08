@@ -1,8 +1,10 @@
 Event	ID	Name			Wwise Object Path	Notes
 	1372256004	TestCall_B_Toning			\Default Work Unit\TestCall_B_Toning	
 	2458966978	TestCall_B_Silent			\Default Work Unit\TestCall_B_Silent	
+	3951725281	Play_vo_jaya_repair1Ahhh			\Default Work Unit\Play_vo_jaya_repair1Ahhh	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	98915971	tutorialMusic_fundamental_[B]_toning	Y:\Documents\GitHub\LornaTestCall\LornaTestCall_WwiseProject\.cache\Mac\SFX\tutorialMusic_fundamental_[B]_toning_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Fundamental_B_Stems\tutorialMusic_fundamental_[B]_toning		10563460
 	111280112	tutorialMusic_fundamental_[B]_silent	Y:\Documents\GitHub\LornaTestCall\LornaTestCall_WwiseProject\.cache\Mac\SFX\tutorialMusic_fundamental_[B]_silent_11A93380.wem		\Actor-Mixer Hierarchy\Default Work Unit\Fundamental_B_Stems\tutorialMusic_fundamental_[B]_silent		8448096
+	417786063	vo_jaya_repair1Ahhh	Y:\Documents\GitHub\LornaTestCall\LornaTestCall_WwiseProject\.cache\Mac\SFX\vo_jaya_repair1Ahhh_DFA8D4D4.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO\vo_jaya_repair1Ahhh		2613864
 

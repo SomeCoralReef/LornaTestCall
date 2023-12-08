@@ -196,6 +196,36 @@
 						</SwitchContainer>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="VO" ID="{5A193AE9-709D-479C-BB20-10AFF42EA3A6}" ShortID="1047158545">
+					<ChildrenList>
+						<Sound Name="vo_jaya_repair1Ahhh" ID="{27327215-F738-4A5A-977B-77C9573EB801}" ShortID="151036251">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C88C75F0-4719-42AC-B8F7-95915B532029}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EC7D7503-B73E-4579-AB83-2C9947BAEA62}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="vo_jaya_repair1Ahhh" ID="{AA0B4E1B-1C67-4F7F-A490-D0A2150C9A4D}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="13.6130434782609"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>vo_jaya_repair1Ahhh.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="417786063"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="vo_jaya_repair1Ahhh" ID="{AA0B4E1B-1C67-4F7F-A490-D0A2150C9A4D}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

@@ -25,6 +25,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_vo_jaya_repair1Ahhh" ID="{585F1623-F203-4E1D-8991-624C9976DDC6}">
+					<ChildrenList>
+						<Action Name="" ID="{90F9F94B-9F94-4612-A1F7-7B29B30CA202}" ShortID="1053572428">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="vo_jaya_repair1Ahhh" ID="{27327215-F738-4A5A-977B-77C9573EB801}" WorkUnitID="{0F98220D-372D-4356-AA7C-3EE01DDC4404}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
