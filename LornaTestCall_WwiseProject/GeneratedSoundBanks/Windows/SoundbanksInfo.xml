@@ -32,7 +32,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{03101BE2-A4C2-5809-AA7E-9CA75C7F7D18}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{FA828807-7070-F09D-3A6C-9EB4CB538A3E}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -46,7 +46,7 @@
 				</File>
 				<File Id="417786063" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>vo_jaya_repair1Ahhh.wav</ShortName>
-					<CachePath>SFX/vo_jaya_repair1Ahhh_DFA8D4D4.wem</CachePath>
+					<CachePath>SFX/vo_jaya_repair1Ahhh_75E9611E.wem</CachePath>
 				</File>
 			</Media>
 			<Events>
@@ -68,5 +68,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{1731EA9C-05F4-7B88-AACE-6D42A098D2B6}</FileHash>
+	<FileHash>{7BCC7C10-609A-2951-834A-617454BD61EA}</FileHash>
 </SoundBanksInfo>
