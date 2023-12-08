@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{D326F752-7CA2-0A14-FDB1-63ECE89D0199}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{2558982C-53DD-51E1-AD47-F4886088AA96}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -19,6 +19,7 @@
 				</AudioDevices>
 			</Plugins>
 			<Busses>
+				<Bus Id="2851327056" Name="LED Audio Bus"/>
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 			</Busses>
 			<SwitchGroups>
@@ -32,7 +33,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{03101BE2-A4C2-5809-AA7E-9CA75C7F7D18}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{095F5F67-D457-6281-E624-B3641A3D9D4E}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -44,17 +45,28 @@
 					<ShortName>tutorialMusic_fundamental_[B]_silent.wav</ShortName>
 					<CachePath>SFX/tutorialMusic_fundamental_[B]_silent_11A93380.wem</CachePath>
 				</File>
+				<File Id="403676576" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Kasina\mindplace_reference.wav</ShortName>
+					<CachePath>SFX/Kasina/mindplace_reference_FBC78EF0.wem</CachePath>
+				</File>
 				<File Id="417786063" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>vo_jaya_repair1Ahhh.wav</ShortName>
-					<CachePath>SFX/vo_jaya_repair1Ahhh_DFA8D4D4.wem</CachePath>
+					<CachePath>SFX/vo_jaya_repair1Ahhh_75E9611E.wem</CachePath>
+				</File>
+				<File Id="590638816" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Kasina\mindplace_red.wav</ShortName>
+					<CachePath>SFX/Kasina/mindplace_red_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="936434520" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Kasina\mindplace_green.wav</ShortName>
+					<CachePath>SFX/Kasina/mindplace_green_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="1052382876" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Kasina\mindplace_blue.wav</ShortName>
+					<CachePath>SFX/Kasina/mindplace_blue_AFC64361.wem</CachePath>
 				</File>
 			</Media>
 			<Events>
-				<Event Id="3951725281" Name="Play_vo_jaya_repair1Ahhh">
-					<MediaRefs>
-						<MediaRef Id="417786063"/>
-					</MediaRefs>
-				</Event>
 				<Event Id="2458966978" Name="TestCall_B_Silent">
 					<MediaRefs>
 						<MediaRef Id="111280112"/>
@@ -65,8 +77,33 @@
 						<MediaRef Id="98915971"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="4138570814" Name="TestCall_LED_Blue">
+					<MediaRefs>
+						<MediaRef Id="1052382876"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="822011279" Name="TestCall_LED_Green">
+					<MediaRefs>
+						<MediaRef Id="936434520"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3721174499" Name="TestCall_LED_Red">
+					<MediaRefs>
+						<MediaRef Id="590638816"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3936784981" Name="TestCall_LED_Reference">
+					<MediaRefs>
+						<MediaRef Id="403676576"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="172935432" Name="TestCall_VO_RepairAhhh">
+					<MediaRefs>
+						<MediaRef Id="417786063"/>
+					</MediaRefs>
+				</Event>
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{1CED1E90-D45D-7247-A89C-7896BD121520}</FileHash>
+	<FileHash>{8B58F2F4-2E7E-AE56-0054-D08358A8E15A}</FileHash>
 </SoundBanksInfo>

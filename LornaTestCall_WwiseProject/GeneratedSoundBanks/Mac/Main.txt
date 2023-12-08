@@ -1,10 +1,18 @@
 Event	ID	Name			Wwise Object Path	Notes
+	172935432	TestCall_VO_RepairAhhh			\Default Work Unit\TestCall_VO_RepairAhhh	
+	822011279	TestCall_LED_Green			\Default Work Unit\Mindplace LED System\TestCall_LED_Green	
 	1372256004	TestCall_B_Toning			\Default Work Unit\TestCall_B_Toning	
 	2458966978	TestCall_B_Silent			\Default Work Unit\TestCall_B_Silent	
-	3951725281	Play_vo_jaya_repair1Ahhh			\Default Work Unit\Play_vo_jaya_repair1Ahhh	
+	3721174499	TestCall_LED_Red			\Default Work Unit\Mindplace LED System\TestCall_LED_Red	
+	3936784981	TestCall_LED_Reference			\Default Work Unit\Mindplace LED System\TestCall_LED_Reference	
+	4138570814	TestCall_LED_Blue			\Default Work Unit\Mindplace LED System\TestCall_LED_Blue	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	98915971	tutorialMusic_fundamental_[B]_toning	Y:\Documents\GitHub\LornaTestCall\LornaTestCall_WwiseProject\.cache\Mac\SFX\tutorialMusic_fundamental_[B]_toning_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Fundamental_B_Stems\tutorialMusic_fundamental_[B]_toning		10563460
 	111280112	tutorialMusic_fundamental_[B]_silent	Y:\Documents\GitHub\LornaTestCall\LornaTestCall_WwiseProject\.cache\Mac\SFX\tutorialMusic_fundamental_[B]_silent_11A93380.wem		\Actor-Mixer Hierarchy\Default Work Unit\Fundamental_B_Stems\tutorialMusic_fundamental_[B]_silent		8448096
-	417786063	vo_jaya_repair1Ahhh	Y:\Documents\GitHub\LornaTestCall\LornaTestCall_WwiseProject\.cache\Mac\SFX\vo_jaya_repair1Ahhh_DFA8D4D4.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO\vo_jaya_repair1Ahhh		2613864
+	403676576	mindplace_reference	Y:\Documents\GitHub\LornaTestCall\LornaTestCall_WwiseProject\.cache\Mac\SFX\Kasina\mindplace_reference_FBC78EF0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mindplace_LED\Kasina Mindplace Samples\mindplace_reference		176496
+	417786063	vo_jaya_repair1Ahhh	Y:\Documents\GitHub\LornaTestCall\LornaTestCall_WwiseProject\.cache\Mac\SFX\vo_jaya_repair1Ahhh_75E9611E.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO\vo_jaya_repair1Ahhh		2613864
+	590638816	mindplace_red	Y:\Documents\GitHub\LornaTestCall\LornaTestCall_WwiseProject\.cache\Mac\SFX\Kasina\mindplace_red_FBC78EF0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mindplace_LED\Kasina Mindplace Samples\mindplace_red		88344
+	936434520	mindplace_green	Y:\Documents\GitHub\LornaTestCall\LornaTestCall_WwiseProject\.cache\Mac\SFX\Kasina\mindplace_green_FBC78EF0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mindplace_LED\Kasina Mindplace Samples\mindplace_green		88344
+	1052382876	mindplace_blue	Y:\Documents\GitHub\LornaTestCall\LornaTestCall_WwiseProject\.cache\Mac\SFX\Kasina\mindplace_blue_AFC64361.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mindplace_LED\Kasina Mindplace Samples\mindplace_blue		88344
 

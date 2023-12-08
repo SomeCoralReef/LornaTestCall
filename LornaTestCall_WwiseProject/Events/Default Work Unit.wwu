@@ -25,7 +25,7 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play_vo_jaya_repair1Ahhh" ID="{585F1623-F203-4E1D-8991-624C9976DDC6}">
+				<Event Name="TestCall_VO_RepairAhhh" ID="{585F1623-F203-4E1D-8991-624C9976DDC6}">
 					<ChildrenList>
 						<Action Name="" ID="{90F9F94B-9F94-4612-A1F7-7B29B30CA202}" ShortID="1053572428">
 							<ReferenceList>
@@ -36,6 +36,54 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Folder Name="Mindplace LED System" ID="{CBB635FA-4270-4054-AB1C-CBA5304AD6DA}" ShortID="188195447">
+					<ChildrenList>
+						<Event Name="TestCall_LED_Blue" ID="{C2A4D90C-207D-4DAA-8373-A7CE6191E3B9}">
+							<ChildrenList>
+								<Action Name="" ID="{24F3FC6B-EB6B-4922-8A35-E0EDB2CD7761}" ShortID="359493215">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="mindplace_blue" ID="{8319B30F-F9D2-4FD2-AFDC-7F3123CB1CA4}" WorkUnitID="{0F98220D-372D-4356-AA7C-3EE01DDC4404}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="TestCall_LED_Green" ID="{35354517-28AC-4E00-A597-D8F524573E81}">
+							<ChildrenList>
+								<Action Name="" ID="{6CE4FD26-6318-4EB4-99E8-F515A9626356}" ShortID="992875827">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="mindplace_green" ID="{4F9BC68C-AC2F-4B0D-B798-8EF5675A30B8}" WorkUnitID="{0F98220D-372D-4356-AA7C-3EE01DDC4404}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="TestCall_LED_Red" ID="{646342D0-4D92-4035-A439-EA27BDBA2F9A}">
+							<ChildrenList>
+								<Action Name="" ID="{A19A3F82-6685-4DB3-B5C3-96B18E27F774}" ShortID="749079861">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="mindplace_red" ID="{8CAF87BC-FC7C-4BA3-ACF8-953726AFB3BF}" WorkUnitID="{0F98220D-372D-4356-AA7C-3EE01DDC4404}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="TestCall_LED_Reference" ID="{C57F292D-9ECC-4077-9126-016AD3D37E02}">
+							<ChildrenList>
+								<Action Name="" ID="{D7C1052D-852F-4960-8CE0-E9946CC3F2C1}" ShortID="17131501">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="mindplace_reference" ID="{315F6CDA-0323-4AA5-87E0-8914ED31B830}" WorkUnitID="{0F98220D-372D-4356-AA7C-3EE01DDC4404}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

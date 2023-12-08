@@ -13,9 +13,13 @@ namespace AK
 {
     namespace EVENTS
     {
-        static const AkUniqueID PLAY_VO_JAYA_REPAIR1AHHH = 3951725281U;
         static const AkUniqueID TESTCALL_B_SILENT = 2458966978U;
         static const AkUniqueID TESTCALL_B_TONING = 1372256004U;
+        static const AkUniqueID TESTCALL_LED_BLUE = 4138570814U;
+        static const AkUniqueID TESTCALL_LED_GREEN = 822011279U;
+        static const AkUniqueID TESTCALL_LED_RED = 3721174499U;
+        static const AkUniqueID TESTCALL_LED_REFERENCE = 3936784981U;
+        static const AkUniqueID TESTCALL_VO_REPAIRAHHH = 172935432U;
     } // namespace EVENTS
 
     namespace SWITCHES
@@ -43,6 +47,7 @@ namespace AK
 
     namespace BUSSES
     {
+        static const AkUniqueID LED_AUDIO_BUS = 2851327056U;
         static const AkUniqueID MASTER_AUDIO_BUS = 3803692087U;
     } // namespace BUSSES
 

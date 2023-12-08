@@ -5,9 +5,13 @@
 			<ChildrenList>
 				<SoundBank Name="Main" ID="{68E8D2C1-1E80-416A-A8DD-88B2BBD7F76D}">
 					<ObjectInclusionList>
+						<ObjectRef Name="TestCall_LED_Red" ID="{646342D0-4D92-4035-A439-EA27BDBA2F9A}" WorkUnitID="{5C856053-DA64-4609-8E3E-34828F780FFD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="TestCall_LED_Reference" ID="{C57F292D-9ECC-4077-9126-016AD3D37E02}" WorkUnitID="{5C856053-DA64-4609-8E3E-34828F780FFD}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="TestCall_B_Silent" ID="{E407DD81-191B-4855-B8B8-07D903406BD1}" WorkUnitID="{5C856053-DA64-4609-8E3E-34828F780FFD}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="TestCall_B_Toning" ID="{4361254A-40C4-4C6D-817D-8BBA366FF138}" WorkUnitID="{5C856053-DA64-4609-8E3E-34828F780FFD}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_vo_jaya_repair1Ahhh" ID="{585F1623-F203-4E1D-8991-624C9976DDC6}" WorkUnitID="{5C856053-DA64-4609-8E3E-34828F780FFD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="TestCall_LED_Blue" ID="{C2A4D90C-207D-4DAA-8373-A7CE6191E3B9}" WorkUnitID="{5C856053-DA64-4609-8E3E-34828F780FFD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="TestCall_LED_Green" ID="{35354517-28AC-4E00-A597-D8F524573E81}" WorkUnitID="{5C856053-DA64-4609-8E3E-34828F780FFD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="TestCall_VO_RepairAhhh" ID="{585F1623-F203-4E1D-8991-624C9976DDC6}" WorkUnitID="{5C856053-DA64-4609-8E3E-34828F780FFD}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
